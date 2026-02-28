@@ -1,0 +1,59 @@
+
+<!-- ==================================================
+ORDER.HTML SMART FORM
+================================================== -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section>
+<h2>Complete Your Order</h2>
+
+<form>
+
+<label>Order Type</label>
+
+<input type="radio" name="type" id="dinein"> Dine In
+<input type="radio" name="type" id="takeaway"> Take Away
+<input type="radio" name="type" id="preorder"> Pre Order
+
+<div class="dinein-field hidden">
+<input placeholder="Table Number">
+</div>
+
+<div class="takeaway-field hidden">
+<input placeholder="Delivery Address">
+</div>
+
+<div class="preorder-field hidden">
+<input placeholder="Pickup Date & Time">
+</div>
+
+<label>Quantity</label>
+<select>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+
+<button>Submit Order</button>
+
+</form>
+</section>
+
+<footer>© Teddy's Treats</footer>
+</body>
+</html>
+
